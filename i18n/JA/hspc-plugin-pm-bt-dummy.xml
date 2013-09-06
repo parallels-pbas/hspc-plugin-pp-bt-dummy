@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<strings lang="ja" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>bapm_dummy_account_number_is_wrong</id>
+<c>error</c>
+<val>アカウント番号 '%acc%' に誤ったフォーマットが指定されています</val>
+</string>
+
+<string>
+<id>bapm_dummy_bank_code_is_wrong</id>
+<c>error</c>
+<val>銀行コード '%code%' に誤ったフォーマットが指定されています</val>
+</string>
+
+<string>
+<id>bapm_dummy_acc_info_uc</id>
+<c>Field title</c>
+<val>アカウント情報</val>
+</string>
+
+<string>
+<id>bapm_dummy_acc_number_uc</id>
+<c>Field title</c>
+<val>アカウント番号</val>
+</string>
+
+<string>
+<id>bapm_dummy_ba_uc</id>
+<c>Template title</c>
+<val>ダミーの銀行アカウント</val>
+</string>
+
+<string>
+<id>bapm_dummy_bank_code_uc</id>
+<c>Field title</c>
+<val>銀行コード</val>
+</string>
+
+<string>
+<id>bapm_dummy_holder_name_uc</id>
+<c>Field title</c>
+<val>アカウント所有者名</val>
+</string>
+
+<string>
+<id>bapm_dummy_private_data_uc</id>
+<c>Form title</c>
+<val>銀行アカウントプライベートデータ</val>
+</string>
+
+<string>
+<id>bapm_dummy_public_data_uc</id>
+<c>Form title</c>
+<val>銀行アカウント公開データ</val>
+</string>
+
+<string>
+<id>bapm_dummy_type_dummy</id>
+<c>Payment Method type</c>
+<val>ダミー</val>
+</string>
+
+<string>
+<id>bapm_dummy_type_uc</id>
+<c>Field title</c>
+<val>タイプ</val>
+</string>
+
+</strings>

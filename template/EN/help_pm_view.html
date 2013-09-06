@@ -1,0 +1,75 @@
+<blockquote>
+<p>The payment method data:
+
+{
+	if (!$customer_view) {
+		$OUT .= q|
+<p>Bank Account Private Data</p>
+		|;
+	} else {
+		$OUT .= q|
+<p>Bank Account Public Data</p>
+		|;
+	}
+}
+<p><table width=100% bgcolor=#cccccc cellpadding=0 cellspacing=0 border=0>
+<tr><td><table width=100% cellpadding=3 cellspacing=1 border=0>
+<tr>
+<td>Field Name<br></td><td>Description</td></tr>
+
+<tr>
+<td bgcolor=white>Type</td>
+<td bgcolor=white>Payment method type.
+</td></tr>
+
+<tr>
+<td bgcolor=white>Account Holder Name</td>
+<td bgcolor=white>Holder name (company name, person, any other).
+</td></tr>
+
+<tr>
+<td bgcolor=white>Account Information </td>
+<td bgcolor=white>Bank code and account number.
+</td></tr>
+
+</table>
+</td></tr></table>
+</td>
+</tr></table>
+
+<p><strong>Payment Method General Data</strong>. 
+</p>
+<p><table width=100% bgcolor=#cccccc cellpadding=0 cellspacing=0 border=0>
+<tr><td><table width=100% cellpadding=3 cellspacing=1 border=0>
+<tr>
+<td>Field Name<br></td><td>Description</td></tr>
+<tr>
+<td bgcolor=white>Status</td>
+<td bgcolor=white>A payment method status:
+<ul>
+<li>Unchecked. A payment method is active and available for payments, but it was just saved in Parallels Business Automation - Standard database and no successful transactions were yet performed using this payment method. After a successful transaction the Unchecked payment method status automatically becomes OK.
+<li>OK. A payment method is active and available for transactions. At least one successful transaction has been performed using this account.
+<li>Disabled. A payment method is temporarily not available for payments. A payment method can be disabled either manually, by editing its profile or automatically, if a transaction has been declined by a payment gateway and the option <strong>Disable the Payment Method if the processing center declines the transaction</strong> is enabled in the Commerce Director &gt; Payment Processing &gt; Secure Storage &gt; General Settings.
+<li>Expired. A payment method is not available for payments since its registration period has expired. This status can be assigned by Provider only manually.
+<li>Error. A payment method is unavailable for payments since its data is incorrect or Provider suspects that a payment method data can be incorrect. In this case, Provider manually assigns the Error status to a payment method.
+</ul>
+</td></tr>
+<tr>
+<td bgcolor=white>Account</td>
+<td bgcolor=white>The name of account a payment method belongs to.
+</td></tr>
+
+<tr>
+<td bgcolor=white>Allow payment by this payment method</td>
+<td bgcolor=white>Payments allowed - green tick. Payments not allowed - red cross.
+</td></tr>
+<tr>
+<td bgcolor=white>Use this payment method for recurring payments</td>
+<td bgcolor=white>Recurring payments allowed - green tick. Recurring payments not allowed - red cross.
+</td></tr>
+
+</table>
+</td></tr></table>
+</td>
+</tr></table>
+</blockquote>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="gb2312"?>
+<strings lang="cn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>dummy_acc_number_required</id>
+<c>error</c>
+<val>账户代码为必填字段。</val>
+</string>
+
+<string>
+<id>dummy_account_code_is_wrong</id>
+<c>Dummy localisation</c>
+<val>账号格式错误。</val>
+</string>
+
+<string>
+<id>dummy_bank_code_length8</id>
+<c>error</c>
+<val>银行代号长度应为8位。</val>
+</string>
+
+<string>
+<id>dummy_bank_code_required</id>
+<c>error</c>
+<val>银行代码为必填字段。</val>
+</string>
+
+<string>
+<id>dummy_pp_description</id>
+<c>Order description</c>
+<val>支付%doc_name% #%doc_num%</val>
+</string>
+
+<string>
+<id>holder_name_not_defined</id>
+<c>Errors</c>
+<val>尚未定义持股者姓名</val>
+</string>
+
+<string>
+<id>public_acc_cant_set</id>
+<c>Errors</c>
+<val>无法设置公共卡号</val>
+</string>
+
+</strings>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<strings lang="ru" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>bapm_dummy_account_number_is_wrong</id>
+<c>error</c>
+<val>Неверный формат учетной записи '%acc%'</val>
+</string>
+
+<string>
+<id>bapm_dummy_bank_code_is_wrong</id>
+<c>error</c>
+<val>Банковский код '%code%' указан в неверном формате.</val>
+</string>
+
+<string>
+<id>bapm_dummy_holder_name_uc</id>
+<c>Field title</c>
+<val>Имя владельца счета</val>
+</string>
+
+<string>
+<id>bapm_dummy_acc_info_uc</id>
+<c>Field title</c>
+<val>Информация об учетной записи</val>
+</string>
+
+<string>
+<id>bapm_dummy_private_data_uc</id>
+<c>Form title</c>
+<val>Конфиденциальные данные банковского счета</val>
+</string>
+
+<string>
+<id>bapm_dummy_public_data_uc</id>
+<c>Form title</c>
+<val>Общие данные банковского счета</val>
+</string>
+
+<string>
+<id>bapm_dummy_type_dummy</id>
+<c>Payment Method type</c>
+<val>Тестовый платеж</val>
+</string>
+
+<string>
+<id>bapm_dummy_acc_number_uc</id>
+<c>Field title</c>
+<val>Номер учетной записи</val>
+</string>
+
+<string>
+<id>bapm_dummy_type_uc</id>
+<c>Field title</c>
+<val>Тип</val>
+</string>
+
+<string>
+<id>bapm_dummy_bank_code_uc</id>
+<c>Field title</c>
+<val>Банковский идентификационный номер</val>
+</string>
+
+<string>
+<id>bapm_dummy_ba_uc</id>
+<c>Template title</c>
+<val>Банковский счет для тестового модуля</val>
+</string>
+
+</strings>

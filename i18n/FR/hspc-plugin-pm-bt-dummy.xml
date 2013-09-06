@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<strings lang="fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>bapm_dummy_account_number_is_wrong</id>
+<c>error</c>
+<val>Le format du numéro de compte '%acc%' est incorrect.</val>
+</string>
+
+<string>
+<id>bapm_dummy_bank_code_is_wrong</id>
+<c>error</c>
+<val>Le format du code bancaire '%code%' est incorrect.</val>
+</string>
+
+<string>
+<id>bapm_dummy_acc_info_uc</id>
+<c>Field title</c>
+<val>Informations sur le compte</val>
+</string>
+
+<string>
+<id>bapm_dummy_acc_number_uc</id>
+<c>Field title</c>
+<val>Numéro de compte</val>
+</string>
+
+<string>
+<id>bapm_dummy_ba_uc</id>
+<c>Template title</c>
+<val>Compte en banque Dummy</val>
+</string>
+
+<string>
+<id>bapm_dummy_bank_code_uc</id>
+<c>Field title</c>
+<val>Code bancaire</val>
+</string>
+
+<string>
+<id>bapm_dummy_holder_name_uc</id>
+<c>Field title</c>
+<val>Nom du titulaire du compte</val>
+</string>
+
+<string>
+<id>bapm_dummy_private_data_uc</id>
+<c>Form title</c>
+<val>Données privées du compte bancaire</val>
+</string>
+
+<string>
+<id>bapm_dummy_public_data_uc</id>
+<c>Form title</c>
+<val>Données publiques du compte bancaire</val>
+</string>
+
+<string>
+<id>bapm_dummy_type_dummy</id>
+<c>Payment Method type</c>
+<val>Dummy</val>
+</string>
+
+<string>
+<id>bapm_dummy_type_uc</id>
+<c>Field title</c>
+<val>Type</val>
+</string>
+
+</strings>

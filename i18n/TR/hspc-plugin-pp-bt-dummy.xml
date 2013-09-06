@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<strings lang="tr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>dummy_acc_number_required</id>
+<c>Dummy localisation</c>
+<val>Hesap kodu zorunlu alandır.</val>
+</string>
+
+<string>
+<id>dummy_account_code_is_wrong</id>
+<c>Dummy localisation</c>
+<val>Hesap kodu biçimi yanlış.</val>
+</string>
+
+<string>
+<id>dummy_bank_code_length8</id>
+<c>Dummy localisation</c>
+<val>Banka kodu uzunluğunun 8 basamak olması gerekir.</val>
+</string>
+
+<string>
+<id>dummy_bank_code_required</id>
+<c>Dummy localisation</c>
+<val>Banka kodu zorunlu alandır.</val>
+</string>
+
+<string>
+<id>dummy_pp_description</id>
+<c>Order description</c>
+<val>Sipariş için ödeme</val>
+</string>
+
+<string>
+<id>holder_name_not_defined</id>
+<c>Errors</c>
+<val>Kullanıcı adı tanımlı değil</val>
+</string>
+
+<string>
+<id>public_acc_cant_set</id>
+<c>Errors</c>
+<val>Genel kart numarası ayarlanamıyor</val>
+</string>
+
+</strings>

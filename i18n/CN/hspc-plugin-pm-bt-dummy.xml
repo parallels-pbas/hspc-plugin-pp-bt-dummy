@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="gb2312"?>
+<strings lang="cn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>bapm_dummy_acc_info_uc</id>
+<c>Field title</c>
+<val>账户信息</val>
+</string>
+
+<string>
+<id>bapm_dummy_acc_number_uc</id>
+<c>Field title</c>
+<val>账号</val>
+</string>
+
+<string>
+<id>bapm_dummy_account_number_is_wrong</id>
+<c>error</c>
+<val>账户数量格式“%acc%”错误。</val>
+</string>
+
+<string>
+<id>bapm_dummy_ba_uc</id>
+<c>Template title</c>
+<val>模拟银行账户</val>
+</string>
+
+<string>
+<id>bapm_dummy_bank_code_is_wrong</id>
+<c>error</c>
+<val>银行代码“%code%”格式错误。</val>
+</string>
+
+<string>
+<id>bapm_dummy_bank_code_uc</id>
+<c>Field title</c>
+<val>银行代码</val>
+</string>
+
+<string>
+<id>bapm_dummy_holder_name_uc</id>
+<c>Field title</c>
+<val>账户持有者名称</val>
+</string>
+
+<string>
+<id>bapm_dummy_private_data_uc</id>
+<c>Form title</c>
+<val>银行账户私人数据</val>
+</string>
+
+<string>
+<id>bapm_dummy_public_data_uc</id>
+<c>Form title</c>
+<val>银行账户公共数据</val>
+</string>
+
+<string>
+<id>bapm_dummy_type_dummy</id>
+<c>Payment Method type</c>
+<val>模拟</val>
+</string>
+
+<string>
+<id>bapm_dummy_type_uc</id>
+<c>Field title</c>
+<val>类型</val>
+</string>
+
+</strings>

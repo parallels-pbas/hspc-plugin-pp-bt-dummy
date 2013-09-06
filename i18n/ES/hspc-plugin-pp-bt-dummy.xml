@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<strings lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>dummy_acc_number_required</id>
+<c>error</c>
+<val>El código de cuenta es un campo obligatorio.</val>
+</string>
+
+<string>
+<id>dummy_account_code_is_wrong</id>
+<c>Dummy localisation</c>
+<val>El formato de código de cuenta es incorrecto</val>
+</string>
+
+<string>
+<id>dummy_bank_account_number</id>
+<c>Dummy localisation</c>
+<val>Número de cuenta</val>
+</string>
+
+<string>
+<id>dummy_bank_code</id>
+<c>Dummy localisation</c>
+<val>Código de banco</val>
+</string>
+
+<string>
+<id>dummy_bank_code_length8</id>
+<c>error</c>
+<val>La longitud del código del banco debe ser de 8 símbolos.</val>
+</string>
+
+<string>
+<id>dummy_bank_code_required</id>
+<c>error</c>
+<val>El código del banco es un campo obligatorio.</val>
+</string>
+
+<string>
+<id>dummy_bank_merch_name</id>
+<c>Dummy localisation</c>
+<val>Nombre de comercio</val>
+</string>
+
+<string>
+<id>dummy_bank_textkey</id>
+<c>Dummy localisation</c>
+<val>Llave de texto</val>
+</string>
+
+<string>
+<id>dummy_pay_by_dummy</id>
+<c>Button label</c>
+<val>Pagar por Dummy</val>
+</string>
+
+<string>
+<id>dummy_pp_description</id>
+<c>Order description</c>
+<val>Pago para  %doc_name% #%doc_num%</val>
+</string>
+
+<string>
+<id>holder_name_not_defined</id>
+<c>Errors</c>
+<val>No se ha definido el nombre del titular</val>
+</string>
+
+<string>
+<id>new_bank_acc_dummy</id>
+<c>Bank account title</c>
+<val>Nueva cuenta simulada</val>
+</string>
+
+<string>
+<id>public_acc_cant_set</id>
+<c>Errors</c>
+<val>No se puede establecer el número de tarjeta público</val>
+</string>
+
+</strings>

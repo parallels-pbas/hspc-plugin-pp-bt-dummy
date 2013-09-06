@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<strings lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+<!-- $Id: hspc-plugin-pm-bt-dummy.xml,v 1.2 2006-09-01 12:22:00 akhobov Exp $ -->
+<string>
+<id>bapm_dummy_ba_uc</id>
+<c>Template title</c>
+<val>Dummy Bank Account</val>
+</string>
+
+<string>
+<id>bapm_dummy_type_dummy</id>
+<c>Payment Method type</c>
+<val>Dummy</val>
+</string>
+
+<string>
+<id>bapm_dummy_private_data_uc</id>
+<c>Form title</c>
+<val>Bank Account Private Data</val>
+</string>
+
+<string>
+<id>bapm_dummy_public_data_uc</id>
+<c>Form title</c>
+<val>Bank Account Public Data</val>
+</string>
+
+<string>
+<id>bapm_dummy_holder_name_uc</id>
+<c>Field title</c>
+<val>Account Holder Name</val>
+</string>
+
+<string>
+<id>bapm_dummy_acc_info_uc</id>
+<c>Field title</c>
+<val>Account Information</val>
+</string>
+
+<string>
+<id>bapm_dummy_bank_code_uc</id>
+<c>Field title</c>
+<val>Bank Code</val>
+</string>
+
+<string>
+<id>bapm_dummy_acc_number_uc</id>
+<c>Field title</c>
+<val>Account Number</val>
+</string>
+
+<string>
+<id>bapm_dummy_type_uc</id>
+<c>Field title</c>
+<val>Type</val>
+</string>
+
+<string>
+<id>bapm_dummy_account_number_is_wrong</id>
+<c>error</c>
+<val>Account number '%acc%' has a wrong format.</val>
+</string>
+
+<string>
+<id>bapm_dummy_bank_code_is_wrong</id>
+<c>error</c>
+<val>Bank code '%code%' has a wrong format.</val>
+</string>
+
+</strings>
+

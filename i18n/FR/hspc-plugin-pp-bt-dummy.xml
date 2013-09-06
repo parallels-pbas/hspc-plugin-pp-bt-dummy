@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<strings lang="fr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>dummy_acc_number_required</id>
+<c>error</c>
+<val>Le champ 'Code du compte' est obligatoire.</val>
+</string>
+
+<string>
+<id>dummy_account_code_is_wrong</id>
+<c>Dummy localisation</c>
+<val>Le format du code du compte est incorrect.</val>
+</string>
+
+<string>
+<id>dummy_bank_code_length8</id>
+<c>error</c>
+<val>Le code bancaire doit avoir 8 signes.</val>
+</string>
+
+<string>
+<id>dummy_bank_code_required</id>
+<c>error</c>
+<val>Le champ Code bancaire est obligatoire.</val>
+</string>
+
+<string>
+<id>dummy_pp_description</id>
+<c>Order description</c>
+<val>Paiement pour %doc_name% #%doc_num%</val>
+</string>
+
+<string>
+<id>holder_name_not_defined</id>
+<c>Errors</c>
+<val>Le nom du titulaire n'est pas défini</val>
+</string>
+
+<string>
+<id>public_acc_cant_set</id>
+<c>Errors</c>
+<val>Impossible de définir le numéro public de la carte</val>
+</string>
+
+</strings>

@@ -1,0 +1,78 @@
+<blockquote>
+<p>To add a payment method, fill the form.
+
+<p>Enter the requisites the account  a new payment method belongs to into the <strong>Account</strong> fields:
+<ul>
+<li>Either type the account ID into the first field and the account name into the second field.
+<li>Or click the <strong>Select</strong> button and choose an account from the list that appears in the popup window.
+</ul> 
+
+<p>Bank Account Private Data</p>
+<p><table width=100% bgcolor=#cccccc cellpadding=0 cellspacing=0 border=0>
+<tr><td><table width=100% cellpadding=3 cellspacing=1 border=0>
+<tr>
+<td>Field Name<br></td><td>Description</td></tr>
+
+<tr>
+<td bgcolor=white>Acount Holder Name</td>
+<td bgcolor=white>Enter an arbitrary name (company name, person, any other).
+</td></tr>
+
+<tr>
+<td bgcolor=white>Account Information </td>
+<td bgcolor=white>Enter an arbitrary bank code and account number into the relevant fields.
+</td></tr>
+
+</table>
+</td></tr></table>
+</td>
+</tr></table>
+
+<p><strong>Payment Method General Data</strong>. 
+</p>
+<p><table width=100% bgcolor=#cccccc cellpadding=0 cellspacing=0 border=0>
+<tr><td><table width=100% cellpadding=3 cellspacing=1 border=0>
+<tr>
+<td>Field Name<br></td><td>Description</td></tr>
+{
+	if (!$customer_view) {
+		$OUT .= q|
+<tr>
+<td bgcolor=white>Status</td>
+<td bgcolor=white>Select a payment method status:
+<ul>
+<li>Unchecked. A payment method is active and available for payments, but it was just saved in Parallels Business Automation - Standard database and no successful transactions were yet performed using this payment method. After a successful transaction the Unchecked payment method status automatically becomes OK.
+<li>OK. A payment method is active and available for transactions. At least one successful transaction has been performed using this account.
+<li>Disabled. A payment method is temporarily not available for payments. A payment method can be disabled either manually, by editing its profile or automatically, if a transaction has been declined by a payment gateway and the option <strong>Disable the Payment Method if the processing center declines the transaction</strong> is enabled in the Commerce Director &gt; Payment Processing &gt; Secure Storage &gt; General Settings.
+<li>Expired. A payment method is not available for payments since its registration period has expired. This status can be assigned by Provider only manually.
+<li>Error. A payment method is unavailable for payments since its data is incorrect or Provider suspects that a payment method data can be incorrect. In this case, Provider manually assigns the Error status to a payment method.
+</ul>
+</td></tr>
+		|;
+	}
+}
+<tr>
+<td bgcolor=white>Allow payment by this payment method</td>
+<td bgcolor=white>To allow using the payment method for payments, check this box. This setting makes sense only for Unchecked or OK statuses of a payment method (in this case, you can temporarily suspend payments by a payment method by clearing this box). In other statuses payments using a payment method are not allowed in any case, without respect to this setting.
+</td></tr>
+<tr>
+<td bgcolor=white>Use this payment method for recurring payments</td>
+<td bgcolor=white>To use the payment method for recurring payments, check this box. If a payment method is used for recurring billing, it is automatically selected as a payment method for recurring payments like automatically generated renewal orders, for example. Parallels Business Automation - Standard automatically selects for recurring payments the first payment method found in database that has the OK status and allowed for payments.
+</td></tr>
+{
+	if (!$customer_view) {
+		$OUT .= q|
+<tr>
+<td bgcolor=white>Customer IP</td>
+<td bgcolor=white>You can optionally enter a customer host IP address. If a customer pays using this payment method an IP address is detected automatically.
+</td></tr>
+		|;
+	}
+}
+
+</table>
+</td></tr></table>
+</td>
+</tr></table>
+</blockquote>
+

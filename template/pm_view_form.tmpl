@@ -1,0 +1,39 @@
+<!-- view_form.tmpl -->
+
+<img src='/images/1.gif' width=1 height=13><br>
+<table cellpadding="0" cellspacing="0" border="0" width="550">
+<tr><td class="FolderTitleBg" width="100%" height="21">
+&nbsp;&nbsp;{$number_link ? qq|<a href='$number_link'><span style="text-decoration: none" class="FolderTitle">$folder_title</span></a>| : qq|<span class="FolderTitle">$folder_title</span>|}</td></tr>
+</table>
+
+<table cellpadding="4" cellspacing="1" border="0" class="DarkLines" width="550">
+	<tr>
+		<td class="FieldTitleBg" valign="top" width="165">
+			<span class="FieldTitle"><txt_bapm_dummy_type_uc></span><br>
+			<img src="/images/1.gif" width="160" height="1">
+		</td>
+		<td class="FieldBodyBg" valign="top" width="345">
+			{$type_txt}
+		</td>
+	</tr>
+	<tr>
+		<td class="FieldTitleBg" valign="top" width="165">
+			<span class="FieldTitle"><txt_bapm_dummy_holder_name_uc></span><br>
+			<img src="/images/1.gif" width="160" height="1">
+		</td>
+		<td class="FieldBodyBg" valign="top" width="345">
+			{$holder_name}
+		</td>
+	</tr>
+	<tr>
+		<td class="FieldTitleBg" valign="top" width="165">
+			<span class="FieldTitle"><txt_bapm_dummy_acc_info_uc></span><br>
+			<img src="/images/1.gif" width="160" height="1">
+		</td>
+		<td class="FieldBodyBg" valign="top" width="345">
+			{$account_number}
+		</td>
+	</tr>
+</table>
+
+<!-- /view_form.tmpl -->

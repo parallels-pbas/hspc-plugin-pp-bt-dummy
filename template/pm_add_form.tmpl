@@ -1,0 +1,59 @@
+<!-- add_form.tmpl -->
+
+
+<!-- <img src='/images/1.gif' width=1 height=13><br> -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="FolderTitleBg" width="100%" height="21">
+			<span class='FolderTitle'>&nbsp;<txt_bapm_dummy_private_data_uc></span>
+		</td>
+	</tr>
+</table>
+
+<table cellspacing="0" cellpadding="5" border="0" class="formborder" width="100%">
+	<tr>
+		<td align="left">
+			<span class='FieldBody'><txt_bapm_dummy_holder_name_uc>&nbsp;<span class=ast>*</span></span>
+		</td>
+		<td align="left">
+			<span class='FieldBody'>
+				<table border="0" cellpadding="0" cellspacing="0" >
+					<tr>
+						<td align="left">
+			<input type="text" id="holder_name" name="holder_name" class="SWi300" size="27" maxlength="120" value="{$holder_name}">
+						</td>
+					</tr>
+				</table>
+			</span>
+		</td>
+	</tr>
+	<tr>
+		<td align="left">
+			<span class='FieldBody'><txt_bapm_dummy_acc_info_uc>&nbsp;<span class=ast>*</span></span>
+		</td>
+		<td align="left">
+			<span class='FieldBody'><!-- :: skin_default -->
+				<table border="0" cellpadding="0" cellspacing="1" >
+					<tr>
+						<td align="left">
+							<span class='FieldBody'><txt_bapm_dummy_bank_code_uc></span>
+						</td>
+						<td align="left">
+							<span class='FieldBody'><txt_bapm_dummy_acc_number_uc></span>
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<input type="text" id="bank_code" name="bank_code" class="SWi150" size="12" maxlength="60" value="{$bank_code}">
+						</td>
+						<td align="left">
+							<input type="text" id="account_number" name="account_number" class="SWi150" size="12" maxlength="60" value="{$account_number}">
+						</td>
+					</tr>
+				</table>
+			</span>
+		</td>
+	</tr>
+</table>
+
+<!-- /add_form.tmpl -->

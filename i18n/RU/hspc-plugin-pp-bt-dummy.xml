@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<strings lang="ru" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>public_acc_cant_set</id>
+<c>Errors</c>
+<val>Не удается задать общий номер кредитной карты</val>
+</string>
+
+<string>
+<id>dummy_acc_number_required</id>
+<c>error</c>
+<val>Необходимо указать номер счета.</val>
+</string>
+
+<string>
+<id>dummy_bank_code_length8</id>
+<c>error</c>
+<val>Банковский код должен состоять из 8 символов</val>
+</string>
+
+<string>
+<id>dummy_bank_code_required</id>
+<c>error</c>
+<val>Необходимо указать банковский код.</val>
+</string>
+
+<string>
+<id>holder_name_not_defined</id>
+<c>Errors</c>
+<val>Имя владельца не указано</val>
+</string>
+
+<string>
+<id>dummy_pp_description</id>
+<c>Order description</c>
+<val>Платеж для %doc_name% #%doc_num%</val>
+</string>
+
+</strings>

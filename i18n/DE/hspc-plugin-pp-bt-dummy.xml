@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<strings lang="de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>dummy_acc_number_required</id>
+<c>error</c>
+<val>Kontonummer ist ein Pflichtfeld.</val>
+</string>
+
+<string>
+<id>dummy_account_code_is_wrong</id>
+<c>Dummy localisation</c>
+<val>Format des Accountcodes ist falsch.</val>
+</string>
+
+<string>
+<id>dummy_bank_account_number</id>
+<c>Dummy localisation</c>
+<val>Accountnummer</val>
+</string>
+
+<string>
+<id>dummy_bank_code</id>
+<c>Dummy localisation</c>
+<val>Bankleitzahl</val>
+</string>
+
+<string>
+<id>dummy_bank_code_length8</id>
+<c>error</c>
+<val>Die Bankleitzahl muss 8 Zeichen lang sein.</val>
+</string>
+
+<string>
+<id>dummy_bank_code_required</id>
+<c>error</c>
+<val>Bankleitzahl ist ein Pflichtfeld.</val>
+</string>
+
+<string>
+<id>dummy_bank_merch_name</id>
+<c>Dummy localisation</c>
+<val>Name Händler</val>
+</string>
+
+<string>
+<id>dummy_bank_textkey</id>
+<c>Dummy localisation</c>
+<val>Text-Key</val>
+</string>
+
+<string>
+<id>dummy_pay_by_dummy</id>
+<c>Button label</c>
+<val>Per Dummy bezahlen</val>
+</string>
+
+<string>
+<id>dummy_pp_description</id>
+<c>Order description</c>
+<val>Zahlung für %doc_name% #%doc_num%</val>
+</string>
+
+<string>
+<id>holder_name_not_defined</id>
+<c>Errors</c>
+<val>Inhabername nicht definiert</val>
+</string>
+
+<string>
+<id>new_bank_acc_dummy</id>
+<c>Bank account title</c>
+<val>Neuer Dummy-Account</val>
+</string>
+
+<string>
+<id>public_acc_cant_set</id>
+<c>Errors</c>
+<val>Öffentliche Kartennummer kann nicht festgelegt werden</val>
+</string>
+
+</strings>

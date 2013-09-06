@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<strings lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>holder_name_not_defined</id>
+<c>Errors</c>
+<val>Holder name is not defined</val>
+</string>
+
+<string>
+<id>public_acc_cant_set</id>
+<c>Errors</c>
+<val>Public card number cannot be set</val>
+</string>
+
+<string>
+<id>dummy_pp_description</id>
+<c>Order description</c>
+<val>Payment for %doc_name% #%doc_num%</val>
+</string>
+
+<string>
+<id>dummy_acc_number_required</id>
+<c>error</c>
+<val>Account code is a mandatory field.</val>
+</string>
+
+<string>
+<id>dummy_bank_code_required</id>
+<c>error</c>
+<val>Bank code is a mandatory field.</val>
+</string>
+
+<string>
+<id>dummy_bank_code_length8</id>
+<c>error</c>
+<val>Bank code should be 8 symbols long.</val>
+</string>
+
+</strings>

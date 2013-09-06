@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<strings lang="ja" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>dummy_acc_number_required</id>
+<c>error</c>
+<val>アカウントコードは必須フィールドです</val>
+</string>
+
+<string>
+<id>dummy_account_code_is_wrong</id>
+<c>Dummy localisation</c>
+<val>アカウントコードフォーマットが誤りです</val>
+</string>
+
+<string>
+<id>dummy_bank_account_number</id>
+<c>Dummy localisation</c>
+<val>アカウント番号</val>
+</string>
+
+<string>
+<id>dummy_bank_code</id>
+<c>Dummy localisation</c>
+<val>銀行コード</val>
+</string>
+
+<string>
+<id>dummy_bank_code_length8</id>
+<c>error</c>
+<val>銀行コードは8 文字で指定する必要があります</val>
+</string>
+
+<string>
+<id>dummy_bank_code_required</id>
+<c>error</c>
+<val>銀行コードは必須フィールドです</val>
+</string>
+
+<string>
+<id>dummy_bank_merch_name</id>
+<c>Dummy localisation</c>
+<val>商人名称</val>
+</string>
+
+<string>
+<id>dummy_bank_textkey</id>
+<c>Dummy localisation</c>
+<val>テキストキー</val>
+</string>
+
+<string>
+<id>dummy_pay_by_dummy</id>
+<c>Button label</c>
+<val>ダミーによる支払い</val>
+</string>
+
+<string>
+<id>dummy_pp_description</id>
+<c>Order description</c>
+<val>%doc_name% #%doc_num% の支払い</val>
+</string>
+
+<string>
+<id>holder_name_not_defined</id>
+<c>Errors</c>
+<val>所有者名が定義されていません</val>
+</string>
+
+<string>
+<id>new_bank_acc_dummy</id>
+<c>Bank account title</c>
+<val>新しいダミーアカウント</val>
+</string>
+
+<string>
+<id>public_acc_cant_set</id>
+<c>Errors</c>
+<val>公開カード番号が設定されていません</val>
+</string>
+
+</strings>

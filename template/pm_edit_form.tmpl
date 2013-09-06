@@ -1,0 +1,71 @@
+<!-- edit_form.tmpl -->
+
+
+<!-- <img src='/images/1.gif' width=1 height=13><br> -->
+<table cellpadding="0" cellspacing="0" border="0" width="550">
+	<tr>
+		<td class="FolderTitleBg" width="100%" height="21">
+			<span class='FolderTitle'>&nbsp;{$folder_title}</span>
+		</td>
+	</tr>
+</table>
+
+<table cellspacing="0" cellpadding="5" border="0" class="formborder" width="550">
+	<tr>
+		<td valign="top" width="165">
+			<span class="FieldBody"><txt_bapm_dummy_type_uc></span><br>
+			<img src="/images/1.gif" width="160" height="1">
+		</td>
+		<td valign="top" width="345">
+			<span class='FieldBody'>{$type_txt}</span>
+		</td>
+	</tr>
+{
+	if (!$only_public) {
+		$OUT .= qq|
+	<tr>
+		<td align="left">
+			<span class='FieldBody'><txt_bapm_dummy_holder_name_uc>&nbsp;<span class=ast>*</span></span>
+		</td>
+		<td align="left">
+			<input type="text" id="holder_name" name="holder_name" class="SWi300" size="27" maxlength="120" value="$holder_name">
+		</td>
+	</tr>
+		<tr align="left">
+		<td>
+			<span class='FieldBody'><txt_bapm_dummy_acc_info_uc></span><br>
+			<img src="/images/1.gif" width="160" height="1">
+		</td>
+		<td align="left">
+			$bank_code $account_number
+		</td>
+	</tr>
+		|;
+
+	} else {
+
+		$OUT .= qq|
+	<tr>
+		<td valign="top" width="165">
+			<span class='FieldBody'><txt_bapm_dummy_holder_name_uc></span><br>
+			<img src="/images/1.gif" width="160" height="1">
+		</td>
+		<td valign="top" width="345">
+			<input type="text" id="holder_name" name="holder_name" class="SWi300" size="27" maxlength="120" value="$holder_name">
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" width="165">
+			<span class='FieldBody'><txt_bapm_dummy_acc_info_uc></span><br>
+			<img src="/images/1.gif" width="160" height="1">
+		</td>
+		<td valign="top" width="345">
+			<span class='FieldBody'>$account_number</span>
+		</td>
+	</tr>
+		|;
+	}
+}
+</table>
+
+<!-- /edit_form.tmpl -->

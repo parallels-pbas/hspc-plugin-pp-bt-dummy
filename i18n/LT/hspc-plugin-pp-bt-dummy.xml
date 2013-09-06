@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1257"?>
+<strings lang="lt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>dummy_acc_number_required</id>
+<c>Dummy localisation</c>
+<val>Prašome palaukti, kol prašymas bus įvykdytas.</val>
+</string>
+
+<string>
+<id>dummy_account_code_is_wrong</id>
+<c>Dummy localisation</c>
+<val>Nurodytas domeno pavadinimas į sąrašą jau įtrauktas.</val>
+</string>
+
+<string>
+<id>dummy_bank_account_number</id>
+<c>Dummy localisation</c>
+<val>Traukti</val>
+</string>
+
+<string>
+<id>dummy_bank_code</id>
+<c>Dummy localisation</c>
+<val>Opcijos id privalo būti nurodytas</val>
+</string>
+
+<string>
+<id>dummy_bank_code_length8</id>
+<c>Dummy localisation</c>
+<val>Sąskaitos kodo formatas neteisingas</val>
+</string>
+
+<string>
+<id>dummy_bank_code_required</id>
+<c>Dummy localisation</c>
+<val>Sąskaitos kodo laukelis privalo būti užpildytas</val>
+</string>
+
+<string>
+<id>dummy_bank_merch_name</id>
+<c>Dummy localisation</c>
+<val>Sąskaitos numeris</val>
+</string>
+
+<string>
+<id>dummy_bank_textkey</id>
+<c>Dummy localisation</c>
+<val>Banko kodas</val>
+</string>
+
+<string>
+<id>dummy_pay_by_dummy</id>
+<c>Button label</c>
+<val>Banko kodas turi būti sudarytas iš 8 simbolių.</val>
+</string>
+
+<string>
+<id>dummy_pp_description</id>
+<c>Order description</c>
+<val>Banko kodo laukelis privalo būti užpildytas</val>
+</string>
+
+<string>
+<id>holder_name_not_defined</id>
+<c>Errors</c>
+<val>Turėtojo vardas nenurodytas</val>
+</string>
+
+<string>
+<id>new_bank_acc_dummy</id>
+<c>Bank account title</c>
+<val>Nauja Dummy sąskaita</val>
+</string>
+
+<string>
+<id>public_acc_cant_set</id>
+<c>Errors</c>
+<val>Slapta?odis MySQL vartotojui root@localhost buvo pakeistas u? HSPcomplete rib?. Norint valdyti duomen? bazes ar naudotis phpMyAdmin, ?? slapta?od? b?tina ?vesti.</val>
+</string>
+
+</strings>
